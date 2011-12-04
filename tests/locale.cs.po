@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GettextTranslator Test\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n>=2 && n<=4 ? 1 : 2;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jan-Sebastian Fabik <honza@fabik.org>\n"
+"Language-Team: \n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: GettextTranslatorTest.php:47
+msgid "Hello world!"
+msgstr "Ahoj světe!"
+
+#: GettextTranslatorTest.php:54
+#, php-format
+msgid "This is %s."
+msgstr "Toto je %s."
+
+#: GettextTranslatorTest.php:61
+#: GettextTranslatorTest.php:62
+#: GettextTranslatorTest.php:63
+#, php-format
+msgid "%d dog"
+msgid_plural "%d dogs"
+msgstr[0] "%d pes"
+msgstr[1] "%d psi"
+msgstr[2] "%d psů"
+
+#: GettextTranslatorTest.php:70
+#: GettextTranslatorTest.php:71
+#: GettextTranslatorTest.php:72
+#, php-format
+msgid "User %2$s has got %1$d dog."
+msgid_plural "User %2$s has got %1$d dogs."
+msgstr[0] "Uživatel %2$s má %1$d psa."
+msgstr[1] "Uživatel %2$s má %1$d psy."
+msgstr[2] "Uživatel %2$s má %1$d psů."
+

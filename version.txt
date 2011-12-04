@@ -1,0 +1,1 @@
+Gettext Translator 1.0 (revision $WCREV$ released on $WCDATE$)
